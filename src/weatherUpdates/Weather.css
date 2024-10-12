@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 20;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    
+    background-color: #E9F7EF;
+    color:#2C3E50;
+}
+.manuBar{
+    background-color: #28A745;
+    height: 50px;
+    width:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContent{
+
+}
+form{
+    height:60px;
+    width:auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.todayWeather{
+    padding:10px;
+    height:auto;
+    width:auto;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.todayWeather p{
+    font-size: 30px;
+    color:black;
+}
+.items{
+    margin:3px;
+    padding:3px;
+}
+.DaysForcast ul{
+    list-style-type: none;
+    padding:0;
+
+}
+.DaysForcast ul li{
+    background-color:#f8fffb ;
+    margin:3px;
+    padding:3px;
+    box-shadow: 2px 1px 2px rgb(180, 180, 180);
+    display: flex;
+    flex-direction: row;
+}
+.DaysForcast span{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.map{
+    
+}
+.footer{
+    background-color: #142e24;
+    height: 30px;
+    width:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
