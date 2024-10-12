@@ -1,13 +1,13 @@
 import "./Weather.css"
 import axios from "axios"
-import {useState, useEffact} from "react"
+import {useState} from "react"
 
 
 function Weather(){
 
     const API_KEY = "db6df617f394ff272f4d752089da44cc"
     const forcasts = [];
-    const API_URL = "http://api.openweathermap.org/geo/1.0/direct?q={city}&appid={API_KEY}&units=metric";
+    
 
     const [city,setCity] = useState("");
     const [weatherData , setWeatherData] = useState(null);
